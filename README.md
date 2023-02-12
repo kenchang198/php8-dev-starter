@@ -1,7 +1,7 @@
-# container build
-docker-compose up -d --build
+# container start
+docker-compose up -d
 
-# login container
+# container login
 docker-compose exec web bash
 
 ## package install
@@ -10,3 +10,6 @@ composer install
 
 # url
 http://localhost:8080/index.php
+
+# docker image info
+https://hub.docker.com/r/pointsandlines/php8-dev-starter/tags
